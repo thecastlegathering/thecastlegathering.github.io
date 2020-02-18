@@ -2,7 +2,7 @@
 
 	Template Name: Eventor - Conference & Event HTML Template
 	Author: Themewinter
-	Author URI: https://themeforest.net/user/themewinter
+	Author URI: httpss://themeforest.net/user/themewinter
 	Description: Eventor - Conference & Event HTML Template
 	Version: 1.0
 

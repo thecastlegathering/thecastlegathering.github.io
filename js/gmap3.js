@@ -4,7 +4,7 @@
  *  Date     : 2016/12/03
  *  Author   : DEMONTE Jean-Baptiste
  *  Contact  : jbdemonte@gmail.com
- *  Web site : http://gmap3.net
+ *  Web site : https://gmap3.net
  *  Licence  : GPL-3.0+
  */
 (function ($, window, document) {
@@ -121,7 +121,7 @@
         };
         script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://maps.googleapis.com/maps/api/js?callback=' + cbName + (loadOptions ? '&' + (typeof loadOptions === 'string' ? loadOptions : serialize(loadOptions)) : '');
+        script.src = 'httpss://maps.googleapis.com/maps/api/js?callback=' + cbName + (loadOptions ? '&' + (typeof loadOptions === 'string' ? loadOptions : serialize(loadOptions)) : '');
         $("head").append(script);
       }
     });
@@ -161,7 +161,7 @@
 
   /**
    * Resolve a GeocodeRequest
-   * https://developers.google.com/maps/documentation/javascript/geocoding
+   * httpss://developers.google.com/maps/documentation/javascript/geocoding
    * @param {String|Object} request
    * @returns {Deferred}
    */
