@@ -121,7 +121,7 @@
         };
         script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'httpss://maps.googleapis.com/maps/api/js?callback=' + cbName + (loadOptions ? '&' + (typeof loadOptions === 'string' ? loadOptions : serialize(loadOptions)) : '');
+        script.src = 'https://maps.googleapis.com/maps/api/js?callback=' + cbName + (loadOptions ? '&' + (typeof loadOptions === 'string' ? loadOptions : serialize(loadOptions)) : '');
         $("head").append(script);
       }
     });
@@ -161,7 +161,7 @@
 
   /**
    * Resolve a GeocodeRequest
-   * httpss://developers.google.com/maps/documentation/javascript/geocoding
+   * https://developers.google.com/maps/documentation/javascript/geocoding
    * @param {String|Object} request
    * @returns {Deferred}
    */
