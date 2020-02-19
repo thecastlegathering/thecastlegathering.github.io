@@ -933,7 +933,7 @@ ul.navbar-nav > li:hover > a{
     height: 100vh;
     width: auto;
     color: #fff;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-position: 50% 50%;
     -webkit-background-size: cover;
     background-size: cover;

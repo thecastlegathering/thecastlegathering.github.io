@@ -871,8 +871,8 @@
 		height: 100%;
 		width: auto;
 		color: #fff;
-		background-attachment: fixed;
-		background-position: 50% 80%;
+		background-attachment: initial;
+		background-position: 50% 50%;
 		-webkit-background-size: cover;
 		background-size: cover;
 		-webkit-backface-visibility: hidden;
